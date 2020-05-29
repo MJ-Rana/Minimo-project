@@ -1,0 +1,109 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+@font-face{
+    font-family: 'Playfair Display', serif;
+}
+/* Header Section CSS */
+.header{
+    padding: 40px 0;
+}
+.menu ul li{
+    padding: 0 28px;
+}
+.menu ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #626262 !important;
+    text-transform: uppercase;
+}
+/* comment section css */
+.comment{
+    padding: 80px 0;
+    font-family: 'Playfair Display', serif;
+}
+.comment h5,h6{
+    color: #c8c3b9;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.comment h1{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 600;
+}
+.comment p{
+    color: #626262;
+    text-align: justify;
+}
+/* gallery section Css */
+
+.gallery{
+    padding: 80px 0;
+}
+.gallery-content h5{
+    padding: 20px 0;
+    font-size: 14px;
+    color: #bdb7aa;
+    text-transform: uppercase;
+}
+.gallery-content h2{
+    font-size: 30px;
+    color: #626262;
+}
+.gallery-content p{
+    padding: 20px 0;
+    font-size: 14px;
+    color: #626262;  
+    font-weight: 500; 
+}
+/* sign up section CSS */
+.signup{
+    background-color: #f0f0f0;
+    padding:80px 0;
+}
+.signup h2{
+    color: #333333;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.signup .input-group{
+   border-bottom: 2px solid; 
+}
+.signup .input-group .mybtn{
+    background-color: #fff;
+    border: none;
+
+}
+/* blog section */
+.blog{
+    padding: 80px 0;
+}
+/* LOAD MORE CSS */
+.btn-custom{
+    border: 1px solid #626262;
+    border-radius: 0;
+    color: #626262;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+/* footer css */
+.footer{
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+.terms li a{
+    color: #000000 !important;
+    text-decoration: none;
+}
